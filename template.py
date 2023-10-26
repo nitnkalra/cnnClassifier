@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 import logging
 
 #logging string
@@ -46,5 +46,3 @@ for filepath in list_of_files:
 
     else:
         logging.info(f"{filename} is already exists")
-
-
